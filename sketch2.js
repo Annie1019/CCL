@@ -6,23 +6,23 @@ let soundswhite = [];
 let soundsblack = [];
 
 function preload() {
-    soundswhite.push(loadSound("sound/C1.mp3")); // [0]
-    soundsblack.push(loadSound("sound/C1sharp.mp3")); // [1]
-    soundswhite.push(loadSound("sound/D1.mp3")); // [2]
-    soundsblack.push(loadSound("sound/D1sharp.mp3"));
-    soundswhite.push(loadSound("sound/E1.mp3"));
-    soundswhite.push(loadSound("sound/F1.mp3"));
-    soundsblack.push(loadSound("sound/F1sharp.mp3"));
-    soundswhite.push(loadSound("sound/G1.mp3"));
-    soundsblack.push(loadSound("sound/G1sharp.mp3"));
-    soundswhite.push(loadSound("sound/A1.mp3"));
-    soundsblack.push(loadSound("sound/A1sharp.mp3"));
-    soundswhite.push(loadSound("sound/B1.mp3"));
-    soundswhite.push(loadSound("sound/C2.mp3"));
-    soundsblack.push(loadSound("sound/C2sharp.mp3"));
-    soundswhite.push(loadSound("sound/D2.mp3"));
-    soundsblack.push(loadSound("sound/D2sharp.mp3"));
-    soundswhite.push(loadSound("sound/E2.mp3"));
+    soundswhite.push(loadSound("C1.mp3")); // [0]
+    soundsblack.push(loadSound("C1sharp.mp3")); // [1]
+    soundswhite.push(loadSound("D1.mp3")); // [2]
+    soundsblack.push(loadSound("D1sharp.mp3"));
+    soundswhite.push(loadSound("E1.mp3"));
+    soundswhite.push(loadSound("F1.mp3"));
+    soundsblack.push(loadSound("F1sharp.mp3"));
+    soundswhite.push(loadSound("G1.mp3"));
+    soundsblack.push(loadSound("G1sharp.mp3"));
+    soundswhite.push(loadSound("A1.mp3"));
+    soundsblack.push(loadSound("A1sharp.mp3"));
+    soundswhite.push(loadSound("B1.mp3"));
+    soundswhite.push(loadSound("C2.mp3"));
+    soundsblack.push(loadSound("C2sharp.mp3"));
+    soundswhite.push(loadSound("D2.mp3"));
+    soundsblack.push(loadSound("D2sharp.mp3"));
+    soundswhite.push(loadSound("E2.mp3"));
 }
 
 function setup() {
