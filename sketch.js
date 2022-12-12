@@ -2,11 +2,11 @@ let ghost = [];
 let sounds = [];
 
 function preload() {
-  sounds.push(loadSound("sound/A.mp3")); // [0]
-  sounds.push(loadSound("sound/C.mp3")); // [1]
-  sounds.push(loadSound("sound/G.mp3")); // [2]
-  sounds.push(loadSound("sound/I.mp3"));
-  sounds.push(loadSound("sound/M.mp3"));
+  sounds.push(loadSound("A.mp3")); // [0]
+  sounds.push(loadSound("C.mp3")); // [1]
+  sounds.push(loadSound("G.mp3")); // [2]
+  sounds.push(loadSound("I.mp3"));
+  sounds.push(loadSound("M.mp3"));
 }
 
 function setup() {
