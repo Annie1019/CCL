@@ -10,9 +10,8 @@ function preload() {
 }
 
 function setup() {
-  let canvas = createCanvas(600, 400);
+  let canvas = createCanvas(500, 600);
   canvas.parent("canvasContainer");
-
   // generate an object by 3% chance per frame
   for (let i = 0; i < 5; i++) {
     let x = 70 + i * 90;
@@ -27,13 +26,21 @@ function keyPressed() {
   }
 }
 function draw() {
-  background(50);
+  background(0);
 
   // update and display the objects
   for (let i = 0; i < ghost.length; i++) {
     let b = ghost[i];
     b.checkMouse(); // ***
     b.display();
+    textSize(35);
+    fill(0, 102, 153, 60);
+    text('A', 60, 300);
+    text('C', 150, 300);
+    text('G', 240, 300);
+    text('I', 330, 300)
+    text('M', 420, 300)
+    text()
   }
 }
 
@@ -58,14 +65,14 @@ class Ghost {
       mouseY < this.y + this.h / 2
     ) {
       // mouse is in the area
-      this.r = 0;
-      this.g = 255;
-      this.b = 0;
+      this.r = 100;
+      this.g = 149;
+      this.b = 237;
       // update this.angle
       if (mouseIsPressed) {
-        this.r = 0;
-        this.g = 255;
-        this.b = 255;
+        this.r = 147;
+        this.g = 112;
+        this.b = 219;
         // let's play sound here!
         if (this.sound.isPlaying() == false) {
           this.sound.play();
@@ -73,9 +80,9 @@ class Ghost {
       }
     } else {
       // mouse is out of the area
-      this.r = 255;
-      this.g = 255;
-      this.b = 255;
+      this.r = 135;
+      this.g = 206;
+      this.b = 250;
     }
   }
   display() {

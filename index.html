@@ -7,55 +7,83 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
-
-  <title>CCLab Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
 
-  <script src="libraries/p5.min.js"></script>
-  <script src="p5.js"></script>
-  <!-- Uncomment the line below if you use audio. -->
+    .piano {
+      background-color: white;
+      color: white;
+      border: 1px solid rgb(144, 137, 137);
+      margin: 100px 100px;
+      padding: 20px 100px 0px 50px;
+      border-width: 5px;
+      border-style: dashed;
+      border-color: solid rgb(226, 194, 246);
+      justify-content: center
+    }
 
-  <!-- <script src="libraries/p5.sound.min.js"></script> -->
+    .piano:hover {
+      background-color: black
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+  </style>
+
 </head>
-<style>
-  table,
-  th,
-  td {
-    border: 1px solid black;
-  }
 
-  .piano {
-    background-color: rgb(226, 194, 246);
-    color: black;
-    border: 2px solid rgb(144, 137, 137);
-    margin: 100px 100px;
-    padding: 20px 100px 0px 50px;
-    border-width: 5px;
-    border-style: dotted;
-    border-color: solid rgb(226, 194, 246);
-  }
 
-  @import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
-</style>
+
 
 <body>
+  <img src="ghost.jpg" alt="ghost" width="1500" height="333">
 
-  <h1 style="font-size:900%">
-    <center>Piano Craze</center>
-  </h1>
+  <body style="background-color:rgb(73, 71, 71)">
+    <h1 style="font-size:900%">
+      <center>Piano Craze</center>
+    </h1>
 
-  <!-- the following div will contain the p5 canvas. -->
-  <div id="canvasContainer"></div>
-  <div class="piano">
-    <h2><a href="https://editor.p5js.org/Annie1019/full/nY8wVELDq" target="_blank">
-        <center><span>Play!</span></center>
-      </a></h2>
-  </div>
+    <!-- the following div will contain the p5 canvas. -->
 
 
-  <!-- the script tag below should always be at the bottom, right before the closing body tag -->
-  <script src="sketch.js"></script>
-</body>
+    <button style="background-color:black">
+      <h1 style="font-size:700%" style="color:black"><i>
+          <a href=" http://127.0.0.1:5500/piano/page3.html" target="_blank">Play!</a>
+        </i></h1>
+    </button>
+    <div class="piano">
+      <h2 style="font-size:300%">If you can play the piano, click <sup style="color:blueviolet">'Play' </sup>to have
+        fun!!
+      </h2>
+    </div>
+
+    <button style="background-color:black">
+      <h1 style="font-size: 700% ;">
+        <i><a href=" http://127.0.0.1:5500/piano/page2.html" target="-blank">
+            Magic!
+          </a></i>
+      </h1>
+    </button>
+    <div class="piano">
+      <h2 style="font-size:300%">
+        If you can't play for now, click <sup style="color:blueviolet">'Magic'</sup> to be a master!!
+      </h2>
+    </div>
+    <img src="steinway.jpg" alt="steinway" width="1600" height="333">
+
+
+
+    <!-- the script tag below should always be at the bottom, right before the closing body tag -->
+
+  </body>
 
 </html>

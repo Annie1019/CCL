@@ -2,7 +2,7 @@ html,
 body {
   height: 100%;
   /* to use % values on height */
-  font-family: 'Rubik Distressed', ;
+
 }
 
 /* to remove the default margins and paddings */
@@ -18,9 +18,15 @@ h1 {
   font-family: 'Rubik Distressed', cursive;
 }
 
-
+h2 {
+  font-family: 'Zen Dots', cursive;
+}
 
 
 canvas {
+  display: block;
+}
+
+#canvasContainer {
   display: block;
 }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CCLab Project</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <script src="p5.js"></script> -->
+    <script src="libraries/p5.min.js"></script>
+    <!-- Uncomment the line below if you use audio. -->
+    <script src="libraries/p5.sound.min.js"></script>
+    <style>
+        .absolute {
+            background-color: rgb(73, 1, 141);
+            position: absolute;
+            left: 300px;
+            top: 600px;
+            color: white;
+            box-shadow: inset;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <body style="background-color:black;">
+        <div id="canvasContainer"></div>
+
+        <div class="absolute">
+            <h1>🎹Press MAGIC to get a complete piece of Nocturne from Chopin</h1>
+        </div>
+        <button style="background-color:aliceblue">
+            <h1 style="font-size:300%" style="color:black"><i>
+                    <a href="http://127.0.0.1:5500/piano/index.html" target="_blank">Return</a>
+                </i></h1>
+        </button>
+
+        <!-- the script tag below should always be at the bottom, right before the closing body tag -->
+        <script src="sketch.js"></script>
+    </body>
+
+</html>

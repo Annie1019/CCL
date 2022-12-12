@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CCLab Project</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="libraries/p5.min.js"></script>
+    <!-- Uncomment the line below if you use audio. -->
+    <script src="libraries/p5.sound.min.js"></script>
+    <style>
+        .absolute {
+            background-color: rgb(73, 1, 141);
+            position: absolute;
+            left: 300px;
+            top: 800px;
+            color: rgb(166, 133, 198);
+            box-shadow: inset;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <body style="background-color:black;">
+        <div id="canvasContainer"></div>
+        <div class="absolute">
+            <h1>🎹Enjoy playing!</h1>
+            <h1>Press "S", "D", "G", "H", "J", "L", ";" for black keys</h1>
+            <h1>"Z", "X", "C", "V", "B", "N", "M", ",", ".", "/" for white keys</h1>
+            <h1>If you are a beginner, press <i>『ZZBBNNB VVCCXXZ</i></h1>
+            <h1><i>BBVVCCX BBVVCCX ZZBBNNB VVCCXXZ』</i> to start with✨</h1>
+        </div>
+
+        <button style="background-color:aliceblue">
+            <h1 style="font-size:300%" style="color:black"><i>
+                    <a href="http://127.0.0.1:5500/piano/index.html" target="_blank">Return</a>
+                </i></h1>
+        </button>
+
+        <!-- the script tag below should always be at the bottom, right before the closing body tag -->
+        <script src="sketch2.js"></script>
+    </body>
+
+</html>
